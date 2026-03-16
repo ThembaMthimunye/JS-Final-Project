@@ -7,6 +7,7 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 />
+
 </head>
 
 <body>
@@ -19,13 +20,13 @@
         </div>
       
         <div class="flex gap-10">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact Us</a>
+            <a href="Home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contactUs.html">Contact Us</a>
         </div>
       
         <div class="relative">
-            <input 
+            <input id="searchInput"
               class="text-black rounded h-[2rem] pl-2 pr-28"
               type="text"
               placeholder="Enter a destination or keyword"
@@ -36,7 +37,7 @@
                   Search
                 </button>
       
-                <button class="rounded bg-[#008B8B] text-white text-xs px-2">
+                <button id="clearButton" class="rounded bg-[#008B8B] text-white text-xs px-2">
                   Reset
                 </button>
             </div>
@@ -45,8 +46,9 @@
       </nav>
  </section>
 
- <section class=" text-white bg-[url(./images/bg.jpg)] bg-cover bg-center h-screen">
-    <div class='flex gap-20 pt-20 '>
+ <section class=" text-white bg-[url(./bg.jpg)] bg-cover bg-center h-screen ">
+     <
+    <div class='flex gap-20 pt-20 justify-center items-center'>
         <div class="flex flex-col gap-6 ml-10 text-white font-bold mt-12">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -66,9 +68,9 @@
         </div>
         
     </div>
-    <button class="rounded bg-[#008B8B] text-white font-bold p-2 ml-[8rem] mt-2">Book Now</button>
+    <button class="rounded bg-[#008B8B] text-white font-bold p-2 ml-[45rem] mt-2 ">Book Now</button>
     </section>
-
+<script src="travelRecommendation.js"></script>
 
 </body>
 </html>
