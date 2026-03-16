@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TravelBloom</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+</head>
+
+<body>
+ <section>
+    <nav class="bg-[#008B8B] flex items-center justify-center gap-[10rem] text-white p-3">
+
+        <div class="flex font-bold gap-2">
+            <h1>TB</h1>
+            <p>TravelBloom</p>
+        </div>
+      
+        <div class="flex gap-10">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+        </div>
+      
+        <div class="relative">
+            <input 
+              class="text-black rounded h-[2rem] pl-2 pr-28"
+              type="text"
+              placeholder="Enter a destination or keyword"
+            >
+      
+            <div class="absolute right-1 top-1 flex gap-1">
+                <button class="rounded bg-[#008B8B] text-white text-xs px-2">
+                  Search
+                </button>
+      
+                <button class="rounded bg-[#008B8B] text-white text-xs px-2">
+                  Reset
+                </button>
+            </div>
+        </div>
+      
+      </nav>
+ </section>
+
+ <section class=" text-white bg-[url('./bg.jpg')] bg-cover bg-center h-screen">
+    <div class='flex gap-20 pt-20 '>
+        <div class="flex flex-col gap-6 ml-10 text-white font-bold mt-12">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div>
+            <h1 class="font-bold text-4xl">ABOUT US</h1>
+            <p class="max-w-xl">Discover your ultimate getaway with Explore Dream Destination, where every journey transforms into a 
+                memory. From pristine beaches to bustling city streets, we guide travelers to experiences that inspire 
+                and excite. Whether you crave adventure, culture, or relaxation, our curated destinations offer something </p>
+
+                <div class="flex gap-[5rem]">
+                    <div class="font-bold text-4xl">
+                        <p>Our</p>
+                        <p>Team</p>
+                    </div>
+                    <div class="flex gap-10">
+                        <div>
+                            <img class="rounded w-10 h-10" src="./avatar.jpg" alt="">
+                            <p class="font-bold">Themba</p>
+                            <p>Client Relation</p>
+                            <button class="rounded bg-[#008B8B] text-white text-xs px-2">CEO</button>
+                        </div>
+                        <div>
+                            <img class="rounded w-10 h-10" src="./avatar.jpg" alt="">
+                            <p class="font-bold">Philly</p>
+                            <p>Strategy And Vision</p>
+                            <button class="rounded bg-[#008B8B] text-white text-xs px-2">MD</button>
+                        </div>
+
+                        <div>
+                            <img class="rounded w-10 h-10" src="./avatar.jpg" alt="">
+                            <p class="font-bold">James</p>
+                            <p>Operations Manager</p>
+                            <button class="rounded bg-[#008B8B] text-white text-xs px-2">CIO</button>
+                        </div>
+    
+                       
+                    </div>
+                    </div>      
+        </div>
+        
+    </div>
+    <button class="rounded bg-[#008B8B] text-white font-bold p-2 ml-[8rem] mt-2">Book Now</button>
+    </section>
+
+
+</body>
+</html>
